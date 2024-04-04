@@ -72,7 +72,7 @@ show collections
 **10. Ejecutar el script CRUD:**
 
 ```
-python crud.py
+Guia1.py
 ```
 
 **Descripción del script CRUD:**
