@@ -83,12 +83,12 @@ El programa utiliza la biblioteca pymongo para conectarse a la base de datos Mon
 
 La base de datos utilizada en este programa tiene una sola colección llamada "Collection". La colección "Collection" tiene los siguientes campos:
 
-_id: Identificador único del documento (generado automáticamente por MongoDB)
-Nombre: Nombre del elemento
-Apellido: Apellido del elemento
-Edad: Edad del elemento
-Telefono: Telefono del elemento
-Correo: Correo del elemento
+* _id: Identificador único del documento (generado automáticamente por MongoDB)
+* Nombre: Nombre del elemento
+* Apellido: Apellido del elemento
+* Edad: Edad del elemento
+* Telefono: Telefono del elemento
+* Correo: Correo del elemento
 
 **Descripción del script CRUD:**
 
