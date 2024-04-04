@@ -107,6 +107,25 @@ El script presenta un menú interactivo que permite al usuario realizar las sigu
 * 4. Eliminar
 * 5. Salir
 
+**Cómo agregar datos usando el script**
+
+Ejecuta el script.
+
+Elige la opción '1. Crear' en el menú principal.
+
+Ingresa los datos: El script te pedirá que introduzcas los valores para cada campo del documento:
+
+* name: Nombre del restaurante
+* address: Dirección del restaurante:
+* building: Número de edificio
+* street: Nombre de la calle
+* zipcode: Código postal
+* coord: Coordenadas GPS
+* borough: Distrito del restaurante
+* cuisine: Tipo de cocina del restaurante
+* grades: Array de calificaciones (fecha, calificación, puntuación)
+* ¡Nuevo documento creado! El script confirmará que el documento se ha añadido correctamente a la colección.
+
 **Nota:**
 
 * El script está configurado para usar la base de datos "DataBase" y la colección "Collection".
