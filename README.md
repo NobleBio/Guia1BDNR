@@ -75,6 +75,21 @@ show collections
 Guia1.py
 ```
 
+**Conexión a la BD:**
+
+El programa utiliza la biblioteca pymongo para conectarse a la base de datos MongoDB. La configuración de la conexión se realiza en el script Guia1BDNR.py.
+
+**Esquema de la BD:**
+
+La base de datos utilizada en este programa tiene una sola colección llamada "Collection". La colección "Collection" tiene los siguientes campos:
+
+_id: Identificador único del documento (generado automáticamente por MongoDB)
+Nombre: Nombre del elemento
+Apellido: Apellido del elemento
+Edad: Edad del elemento
+Telefono: Telefono del elemento
+Correo: Correo del elemento
+
 **Descripción del script CRUD:**
 
 * `create_document()`: Crea un nuevo documento en la colección.
